@@ -4,9 +4,13 @@
   "description": "Blue-Green Deployment Demo - Version 1.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node init && node app.js"
   },
-  "keywords": ["demo", "blue-green", "deployment"],
+  "keywords": [
+    "demo",
+    "blue-green",
+    "deployment"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
